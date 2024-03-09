@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Text ProUng Mulai-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsbold"
+            android:padding="20dp"
+            android:text="@string/ProUng_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:padding="20dp"
+            android:text="@string/LihatSemua_Text"
+            android:textColor="@color/red"
+            android:id="@+id/ls2"
+            android:clickable="true"/>
+    </LinearLayout>
+    <!--Text ProUng Selesai-->
+
+    <!--ScrollView Mulai-->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <!--Layout CardView-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp">
+
+            <!--Card View 1 Mulai-->
+            <com.jakgin.tokoonline.Widget.ListProduk
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@color/Semuwhite"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Description_Gambar6"
+                    android:cropToPadding="true"
+                    android:src="@drawable/f" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/text_gambar6"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="@string/harga_produk1"
+                            android:textColor="@color/appbar" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_love" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.jakgin.tokoonline.Widget.ListProduk>
+            <!--Card View 1 Selesai-->
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <!--Card View 2 Mulai-->
+            <com.jakgin.tokoonline.Widget.ListProduk
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@color/Semuwhite"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Description_Gambar6"
+                    android:cropToPadding="true"
+                    android:src="@drawable/g" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/text_gambar7"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="@string/harga_produk1"
+                            android:textColor="@color/appbar" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_love" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.jakgin.tokoonline.Widget.ListProduk>
+            <!--Card View 2 Selesai-->
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <!--Card View 3 Mulai-->
+            <com.jakgin.tokoonline.Widget.ListProduk
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@color/Semuwhite"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Description_Gambar8"
+                    android:cropToPadding="true"
+                    android:src="@drawable/h" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="@string/text_gambar7"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="@string/harga_produk1"
+                            android:textColor="@color/appbar" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_love" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.jakgin.tokoonline.Widget.ListProduk>
+            <!--Card View 3 Selesai-->
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <!--Card View 4 Mulai-->
+            <com.jakgin.tokoonline.Widget.ListProduk
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@color/Semuwhite"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Description_Gambar1"
+                    android:cropToPadding="true"
+                    android:src="@drawable/i" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/Description_Gambar9"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="@string/text_gambar9"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="@string/harga_produk1"
+                            android:textColor="@color/appbar" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_love" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.jakgin.tokoonline.Widget.ListProduk>
+            <!--Card View 4 Selesai-->
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <com.jakgin.tokoonline.Widget.ListProduk
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@color/Semuwhite"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Description_Gambar10"
+                    android:cropToPadding="true"
+                    android:src="@drawable/j" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinssemibold"
+                        android:text="@string/text_gambar10"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="@string/harga_produk1"
+                            android:textColor="@color/appbar" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_love" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.jakgin.tokoonline.Widget.ListProduk>
+            <!--Card View 5 Mulai-->
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <com.jakgin.tokoonline.Widget.ListProduk
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:background="@color/Semuwhite"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/Description_Gambar5"
+                    android:cropToPadding="true"
+                    android:src="@drawable/e" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="@string/text_gambar5"
+                        android:textSize="14sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppinsregular"
+                            android:text="@string/harga_produk1"
+                            android:textColor="@color/appbar" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_love" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:src="@drawable/ic_cart" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.jakgin.tokoonline.Widget.ListProduk>
+            <!--Card View 5 Selesai-->
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <!--Layout CardView-->
+    </HorizontalScrollView>
+    <!--ScrollView Selesai-->
+</LinearLayout>

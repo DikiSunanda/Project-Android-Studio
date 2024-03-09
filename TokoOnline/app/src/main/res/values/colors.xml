@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF0000</color>
+    <color name="black">#272727</color>
+    <color name="white">#FFFFFF</color>
+    <color name="appbar">#525CEB</color>
+    <color name="appacc">#BFCFE7</color>
+    <color name="Semuwhite">#F8EDFF</color>
+</resources>

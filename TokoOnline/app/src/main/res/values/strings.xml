@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">QStore</string>
+    <string name="Kategori_Text">Kategori</string>
+    <string name="Welcome">Selamat Datang</string>
+    <string name="HotSale_text">Hot Sale</string>
+    <string name="ProUng_text">Produk Unggulan</string>
+    <string name="Pakaian_Text">Pakaian</string>
+    <string name="Elektronik_Text">Elektronik</string>
+    <string name="Makeup_Text">Kecantikan</string>
+    <string name="Makanan">Makanan</string>
+    <string name="LihatSemua_Text">Lihat Semua</string>
+    <string name="SearchText">Search Anything</string>
+    <string name="Description_Icon_Camera">Icon Camera Untuk Membuka Camera</string>
+    <string name="Description_Icon_Search">Icon Search Untuk Mencari SearchBar</string>
+    <string name="Description_Icon_Pakaian">Icon Pakaian</string>
+    <string name="Description_Icon_Elektronik">Icon Elektronik</string>
+    <string name="Description_Icon_Makanan">Icon Makanan</string>
+    <string name="Description_Icon_MakeUp">Icon MakeUP</string>
+    <string name="Description_Gambar1">Gambar Produk 1</string>
+    <string name="Description_Gambar2">Gambar Produk 2</string>
+    <string name="Description_Gambar3">Gambar Produk 3</string>
+    <string name="Description_Gambar4">Gambar Produk 4</string>
+    <string name="Description_Gambar5">Gambar Produk 5</string>
+    <string name="Description_Gambar6">Gambar Produk 6</string>
+    <string name="Description_Gambar7">Gambar Produk 7</string>
+    <string name="Description_Gambar8">Gambar Produk 8</string>
+    <string name="Description_Gambar9">Gambar Produk 9</string>
+    <string name="Description_Gambar10">Gambar Produk 10</string>
+    <string name="Description_Gambar11">Gambar Produk 11</string>
+    <string name="Description_Gambar12">Gambar Produk 12</string>
+    <string name="Description_Gambar13">Gambar Produk 13</string>
+    <string name="Description_Gambar14">Gambar Produk 14</string>
+    <string name="Description_Gambar15">Gambar Produk 15</string>
+    <string name="Description_Gambar16">Gambar Produk 16</string>
+    <string name="Description_Gambar17">Gambar Produk 17</string>
+    <string name="Description_Gambar18">Gambar Produk 18</string>
+    <string name="Description_Gambar19">Gambar Produk 19</string>
+    <string name="Description_Gambar20">Gambar Produk 20</string>
+    <string name="Description_Gambar21">Gambar Produk 21</string>
+    <string name="Description_Gambar22">Gambar Produk 22</string>
+    <string name="text_gambar1">Birthday Shirt JKT 48 Shani Indira</string>
+    <string name="harga_produk1">Rp. 99.999</string>
+    <string name="text_gambar2">Birthday Shirt JKT 48 Marsha Lenathea</string>
+    <string name="harga_produk2">Rp. 99.999</string>
+    <string name="text_gambar3">Birthday Shirt JKT 48 Marsha Lenathea</string>
+    <string name="harga_produk3">Rp. 99.999</string>
+    <string name="text_gambar4">Birthday Shirt JKT 48 Marsha Lenathea</string>
+    <string name="harga_produk4">Rp. 99.999</string>
+    <string name="text_gambar5">Birthday Shirt JKT 48 Christy</string>
+    <string name="harga_produk5">Rp. 99.999</string>
+    <string name="text_gambar6">Kaos distro Motif Jepang </string>
+    <string name="harga_produk6">Rp. 79.999</string>
+    <string name="text_gambar7">Kaos Distro Motif Clover </string>
+    <string name="harga_produk7">Rp. 86.999</string>
+    <string name="text_gambar9">Kaos Pantai Bukan Kaos Partai </string>
+    <string name="harga_produk9">Rp. 56.999</string>
+    <string name="text_gambar10">Celana Jogger Pria (Dewasa) </string>
+    <string name="harga_produk10">Rp. 126.999</string>
+    <string name="text_gambar11">Sweater Erigo X Member JKT 48</string>
+    <string name="harga_produk11">Rp. 199.999</string>
+    <string name="text_gambar12">Jaket Erigo X Member JKT 48</string>
+    <string name="harga_produk12">Rp. 199.999</string>
+    <string name="Input_Username">Masukan Username</string>
+    <string name="Input_Password">Masukan Password</string>
+    <string name="Input_NamaLengkap">Masukan Nama Lengkap</string>
+    <string name="Konfirmasi_Password">Konfirmasi Password</string>
+    <string name="Lupa_Kata_Sandi">Lupa Kata Sandi?</string>
+    <string name="Belum_Punya_Akun">Belum Punya Akun?</string>
+    <string name="Sudah_Punya_Akun">Sudah Punya Akun?</string>
+    <string name="Register_Text">Register</string>
+    <string name="Login_Text">Login</string>
+    <string name="Back_Text">Kembali</string>
+    <string name="Kecantikan_Text">Kecantikan</string>
+    <string name="Makanan_Text">Makanan</string>
+    <string name="textapp">QStore Merupakan Pusat Perbelanjaan Online Terlengkap</string>
+    <string name="textapps">QStore Merupakan Pusat Perbelanjaan Online Terlengkap Gratis Ongkir Dan Gratis Biaya Admin</string>
+    <string name="Laptop1">Laptop Acer Core i5 Baru</string>
+    <string name="Laptop2">Laptop Bekas (Normal)</string>
+    <string name="HargaLaptop1">Rp. 4.799.899</string>
+    <string name="HargaLaptop2">Rp. 5.799.899</string>
+    <string name="HargaLaptop3">Rp. 7.799.899</string>
+    <string name="HargaLaptopBekas">Rp. 1.299.899</string>
+    <string name="SkinCare1">Sabun Wajah BPOM</string>
+    <string name="SkinCare2">Sunscreen BPOM </string>
+    <string name="SkinCare3">Skincare BPOM</string>
+    <string name="Bedak">Produk Wardah</string>
+    <string name="SabunPepaya">Sabun Kecantikan </string>
+    <string name="HargaSkinCare1">Rp. 49.899</string>
+    <string name="HargaSkinCare2">Rp. 59.899</string>
+    <string name="HargaSkinCare3">Rp. 79.899</string>
+    <string name="HargaPapaya">Rp. 25.000</string>
+    <string name="Sosis">Sosis Bakar Caramel</string>
+    <string name="jadwal1">Buka dari Jam 09-00 Sampai 21-00 WIB</string>
+    <string name="Mie">Mie Tektek No Fake</string>
+    <string name="jadwal2">Buka dari Jam 08-00 Sampai 00-00 WIB</string>
+    <string name="Boba">Boba Cap Orang Tua</string>
+    <string name="jadwal3">Buka dari Jam 07-30 Sampai 18-00 WIB</string>
+    <string name="pizza">Pizza (Daging Asli)</string>
+    <string name="jadwal4">Buka dari Jam 06-00 Sampai 16-00 WIB</string>
+    <string name="MieSosis">Mie Kombinasi No Counter</string>
+    <string name="jadwal5">Buka 24 Jam</string>
+    <string name="Alamat1">Jl. Nanjung Mulya Desa Cijoho</string>
+    <string name="Alamat2">Jl. Siliwangi Kota Kuningan</string>
+    <string name="Alamat3">Jl. Aruji Kartawinata</string>
+    <string name="Alamat4">Jl. Otista</string>
+    <string name="Alamat5">Jl. Manis Dukuh</string>
+    <string name="teks_banner">Special Collab QStore X JKT48</string>
+    <string name="promosi_banner">Dapatkan Birthday Shirt Edisi Terbatas JKT48 Seharga Rp. 99.999 Saja !</string>
+    <string name="Check_Out">Beli Sekarang</string>
+    <string name="DeskripsiAplikasi">Tentang Aplikasi</string>
+    <string name="Dev">Developer</string>
+    <string name="DataDiriPengembang"><p>Diki Sunanda, mahasiswa Teknik Informatika 2021 B, Pengembang Aplikasi QStore,
+        aplikasi online shop sederhana yang dibuat menggunakan Android Studio dan Java. Aplikasi ini 
+        memberikan pengguna kemudahan berbelanja online dengan antarmuka yang user-friendly sekaligus 
+        memberikan solusi praktis bagi pelanggan 
+        yang ingin berbelanja dengan nyaman.</p></string>
+    <string name="Teks_About"><p>QStore adalah sebuah aplikasi online shop, yang
+        dibangun menggunakan Android Studio sebagai platform pengembangan dan bahasa pemrograman Java.
+        QStore menawarkan pengguna pengalaman berbelanja online yang nyaman dan efisien dan melakukan
+        transaksi dengan mudah melalui perangkat Android mereka</p>.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis
+        mi et orci lobortis, vel varius elit ultricies Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Nulla sagittis mi et orci lobortis, vel varius elit ultricies Lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Nulla sagittis mi et orci lobortis, vel varius
+        elit ultricies Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Nulla sagittis mi et orci lobortis, vel varius elit ultricies.</string>
+</resources>
